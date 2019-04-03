@@ -21,5 +21,10 @@ var ddbl = new DDBL()
 };
 
 ddbl.PostStats(SERVER COUNT HERE);
+
+ddbl.RetrieveStats();
+
+var info = ddbl.RetrieveStats();
+Console.WriteLine(info.shortdesc);
 ```
 
