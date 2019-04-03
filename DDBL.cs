@@ -5,6 +5,9 @@ using Newtonsoft.Json;
 
 namespace DDBLSharp
 {
+    /// <summary>  
+    /// Divine C# API Wrapper
+    /// </summary>  
     public class DDBL
     {
         /// <summary>  
@@ -45,20 +48,19 @@ namespace DDBLSharp
             }
         }
         /// <summary>  
-        /// Retrieve Bot Information
+        /// Retrieve bot information
         /// </summary> 
-        public GetStats RetrieveStats()
+        public BotInfo RetrieveStats()
         {
             WebClient client = new WebClient();
             client.Headers.Add("Authorization", Token);
             client.Headers.Add("content-type", "application/json");
-            GetStats json = new GetStats();
+            BotInfo json = new BotInfo();
 
             try
             {
                 var data = client.DownloadString(new Uri("https://divinediscordbots.com/bot/" + BotId + "/stats"));
-                json = JsonConvert.DeserializeObject<GetStats>(data);
-
+                json = JsonConvert.DeserializeObject<BotInfo>(data);
             }
             catch (WebException e)
             {
@@ -73,7 +75,10 @@ namespace DDBLSharp
 
             return json;
         }
-        public class GetStats
+        /// <summary>  
+        /// Class for RetrieveStats method
+        /// </summary> 
+        public class BotInfo
         {
             public class Stats
             {
