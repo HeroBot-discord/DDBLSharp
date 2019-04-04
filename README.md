@@ -15,7 +15,7 @@ Methods:
 
 Example Usage:
 
-```
+```CSharp
 //Initialize the DDBL object
 var ddbl = new DDBL()
 {
@@ -29,6 +29,7 @@ ddbl.PostStats(SERVER COUNT HERE);
 //Retrieve your bot information
 var info = ddbl.RetrieveStats();
 Console.Writeline(info.name);
+Console.Writeline(info.stats[0].server_count);
 
 //Check if specific user has voted within x amount of hours
 ddbl.UserHasVoted(USER ID, HOURS);
