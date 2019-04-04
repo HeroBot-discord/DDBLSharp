@@ -72,8 +72,34 @@ namespace DDBLSharp
             {
                 client?.Dispose();
             }
-
+            
             return json;
+        }
+        /// <summary>  
+        /// Check if specific user has voted within specific amount of hours
+        /// </summary> 
+        public bool UserHasVoted(ulong UserId, int Hours)
+        {
+            WebClient client = new WebClient();
+            client.Headers.Add("content-type", "application/json");
+
+            try
+            {
+                var data = client.DownloadString(new Uri("https://divinediscordbots.com/bot/" + BotId + "/votes?filter=" + Hours));
+                if (data.Contains(UserId.ToString())) return true;
+            }
+            catch (WebException e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(String.Format("[ERROR: {0}] Divine Discord Bot API: {1}", e.Status, e.Message));
+                Console.ResetColor();
+            }
+            finally
+            {
+                client?.Dispose();
+            }
+
+            return false;
         }
         /// <summary>  
         /// Class for RetrieveStats method
