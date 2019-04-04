@@ -4,12 +4,14 @@ Divine Discord Bot List API in C#
 ```
 Authorization: "yes"
 Ratelimit: 1 minute
-Parameters:
-BotId (long)
-Token (string)
-ServerCount (int)
 ```
 
+Methods:
+```
+.PostStats(int ServerCount)
+.RetrieveStats()
+.UserHasVoted(ulong UserId, int Hours)
+```
 
 Example Usage:
 
