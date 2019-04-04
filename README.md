@@ -16,17 +16,22 @@ Methods:
 Example Usage:
 
 ```
+//Initialize the DDBL object
 var ddbl = new DDBL()
 {
   BotId = BOT ID HERE,
   Token = "TOKEN HERE"
 };
 
+//Post guild/server count to DDBL
 ddbl.PostStats(SERVER COUNT HERE);
 
-ddbl.RetrieveStats();
-
+//Retrieve your bot information
 var info = ddbl.RetrieveStats();
-Console.WriteLine(info.shortdesc);
+Console.Writeline(info.name);
+
+//Check if specific user has voted within x amount of hours
+ddbl.UserHasVoted(USER ID, HOURS);
+
 ```
 
