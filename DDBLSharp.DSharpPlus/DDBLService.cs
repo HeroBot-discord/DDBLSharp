@@ -1,7 +1,8 @@
-﻿using Discord.WebSocket;
+﻿using DSharpPlus;
+using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace DDBLSharp.Discord.NET
+namespace DDBLSharp.DSharpPlus
 {
     public class DDBLService
     {
@@ -25,21 +26,9 @@ namespace DDBLSharp.Discord.NET
         {
             _config = configuration;
             _discord = new DiscordShardedClientWrapper(ref client);
-            int shardsConnected = 0;
-            client.JoinedGuild += async (guild) => await UpdateStats();
-            client.LeftGuild += async (guild) => await UpdateStats();
-            client.ShardReady += async (shard) =>
-            {
-                if (shardsConnected != -1)
-                {
-                    shardsConnected++;
-                    if (shardsConnected == client.Shards.Count)
-                    {
-                        shardsConnected = -1;
-                        await Init();
-                    }
-                }
-            };
+            client.GuildAvailable += async (guild) => await UpdateStats();
+            client.GuildDeleted += async (guild) => await UpdateStats();
+            client.Ready += async (args) => await Init();
         }
         public Task UpdateStats()
         {
@@ -49,15 +38,14 @@ namespace DDBLSharp.Discord.NET
                 ShardCount = _discord.ShardCount
             });
         }
-        public DDBLService(DiscordSocketClient client,ClientConfiguration configuration) {
+        public DDBLService(DiscordClient client,ClientConfiguration configuration) {
             _discord = new DiscordSocketClientWrapper(ref client);
             _config = configuration;
-            client.JoinedGuild += async (guild) => await UpdateStats();
-            client.LeftGuild += async (guild) => await UpdateStats();
-            client.Ready += async () => await Init();
+            client.Ready += async (shard) => await Init();
         }
         private async Task Init()
         {
+
             // Now the client is lunched.
             Client = new DDBLBotClient() {
                 ApiKey = _config.ApiKey,

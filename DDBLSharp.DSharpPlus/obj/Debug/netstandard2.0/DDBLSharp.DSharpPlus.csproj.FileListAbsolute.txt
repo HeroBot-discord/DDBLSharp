@@ -6,3 +6,12 @@ C:\Users\Matthieu\source\repos\DDBLsharp\DDBLSharp.DSharpPlus\obj\Debug\netstand
 C:\Users\Matthieu\source\repos\DDBLsharp\DDBLSharp.DSharpPlus\obj\Debug\netstandard2.0\DDBLSharp.DSharpPlus.AssemblyInfo.cs
 C:\Users\Matthieu\source\repos\DDBLsharp\DDBLSharp.DSharpPlus\obj\Debug\netstandard2.0\DDBLSharp.DSharpPlus.dll
 C:\Users\Matthieu\source\repos\DDBLsharp\DDBLSharp.DSharpPlus\obj\Debug\netstandard2.0\DDBLSharp.DSharpPlus.pdb
+C:\Users\Matthieu\source\DDBLSharp\DDBLSharp.DSharpPlus\bin\Debug\netstandard2.0\DDBLSharp.DSharpPlus.deps.json
+C:\Users\Matthieu\source\DDBLSharp\DDBLSharp.DSharpPlus\bin\Debug\netstandard2.0\DDBLSharp.DSharpPlus.dll
+C:\Users\Matthieu\source\DDBLSharp\DDBLSharp.DSharpPlus\bin\Debug\netstandard2.0\DDBLSharp.DSharpPlus.pdb
+C:\Users\Matthieu\source\DDBLSharp\DDBLSharp.DSharpPlus\obj\Debug\netstandard2.0\DDBLSharp.DSharpPlus.csprojAssemblyReference.cache
+C:\Users\Matthieu\source\DDBLSharp\DDBLSharp.DSharpPlus\obj\Debug\netstandard2.0\DDBLSharp.DSharpPlus.csproj.CoreCompileInputs.cache
+C:\Users\Matthieu\source\DDBLSharp\DDBLSharp.DSharpPlus\obj\Debug\netstandard2.0\DDBLSharp.DSharpPlus.AssemblyInfoInputs.cache
+C:\Users\Matthieu\source\DDBLSharp\DDBLSharp.DSharpPlus\obj\Debug\netstandard2.0\DDBLSharp.DSharpPlus.AssemblyInfo.cs
+C:\Users\Matthieu\source\DDBLSharp\DDBLSharp.DSharpPlus\obj\Debug\netstandard2.0\DDBLSharp.DSharpPlus.dll
+C:\Users\Matthieu\source\DDBLSharp\DDBLSharp.DSharpPlus\obj\Debug\netstandard2.0\DDBLSharp.DSharpPlus.pdb

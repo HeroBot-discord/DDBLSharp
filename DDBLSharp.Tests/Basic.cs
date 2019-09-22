@@ -2,26 +2,23 @@ using DDBLSharp;
 using Discord.WebSocket;
 using NUnit.Framework;
 using System;
+using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace Tests
+namespace BasicTests
 {
-    public class Tests
+    public class Basic
     {
-        private DiscordShardedClient _discordNetSharded;
-        private DiscordSocketClient _discordNetSocket;
+
         private ClientConfiguration _config;
 
         [SetUp]
         public void Setup()
         {
-            _discordNetSharded = new DiscordShardedClient();
-            _discordNetSharded.LoginAsync(Discord.TokenType.Bot, Environment.GetEnvironmentVariable("DISCORD_TOKEN")).Wait();
-            _discordNetSocket = new DiscordSocketClient();
-            _discordNetSocket.LoginAsync(Discord.TokenType.Bot, Environment.GetEnvironmentVariable("DISCORD_TOKEN")).Wait();
+
             _config = new DDBLSharp.ClientConfiguration()
             {
-                ApiKey = Environment.GetEnvironmentVariable("API_KEY")
+                ApiKey = Environment.GetEnvironmentVariable("TEST_API_KEY")
             };
         }
 
@@ -43,7 +40,7 @@ namespace Tests
             Assert.Pass();
         }
         [Test]
-        public async Task GetSelfbot() {
+        public async Task GetSelfBot() {
             var client = new DDBLBotClient()
             {
                 BotId = 491673480006205461,
@@ -53,15 +50,6 @@ namespace Tests
             Assert.Pass();
         }
 
-        [Test]
-        public async Task DiscordNetShardedClient() {
-
-            var service = new DDBLSharp.Discord.NET.DDBLService(_discordNetSharded, _config);
-            await _discordNetSharded.StartAsync();
-            if (service.Client == null) {
-                Assert.Fail("The client is null.");
-            }
-        }
 
     }
 }

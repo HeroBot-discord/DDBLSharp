@@ -94,15 +94,19 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {}
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\DDBLsharp.csproj": {
+                "projectPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\DDBLsharp.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -112,12 +116,16 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.2": {
           "dependencies": {
-            "NETStandard.Library": {
+            "DSharpPlus": {
+              "target": "Package",
+              "version": "[3.2.3, )"
+            },
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
