@@ -1,9 +1,0 @@
-C:\Users\Matthieu\source\repos\HeroBot-deux-point-zéro\DDBLApi\bin\Debug\netstandard2.0\DDBLApi.deps.json
-C:\Users\Matthieu\source\repos\HeroBot-deux-point-zéro\DDBLApi\bin\Debug\netstandard2.0\DDBLApi.dll
-C:\Users\Matthieu\source\repos\HeroBot-deux-point-zéro\DDBLApi\obj\Debug\netstandard2.0\DDBLApi.csprojAssemblyReference.cache
-C:\Users\Matthieu\source\repos\HeroBot-deux-point-zéro\DDBLApi\obj\Debug\netstandard2.0\DDBLApi.csproj.CoreCompileInputs.cache
-C:\Users\Matthieu\source\repos\HeroBot-deux-point-zéro\DDBLApi\obj\Debug\netstandard2.0\DDBLApi.AssemblyInfoInputs.cache
-C:\Users\Matthieu\source\repos\HeroBot-deux-point-zéro\DDBLApi\obj\Debug\netstandard2.0\DDBLApi.AssemblyInfo.cs
-C:\Users\Matthieu\source\repos\HeroBot-deux-point-zéro\DDBLApi\bin\Debug\netstandard2.0\DDBLApi.pdb
-C:\Users\Matthieu\source\repos\HeroBot-deux-point-zéro\DDBLApi\obj\Debug\netstandard2.0\DDBLApi.dll
-C:\Users\Matthieu\source\repos\HeroBot-deux-point-zéro\DDBLApi\obj\Debug\netstandard2.0\DDBLApi.pdb
