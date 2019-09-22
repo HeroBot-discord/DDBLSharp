@@ -2,7 +2,7 @@
 namespace DDBLSharp.Discord.NET
 {
 
-    public class DiscordShardedClientWrapper : DiscordClientWrapper
+    class DiscordShardedClientWrapper : DiscordClientWrapper
     {
         private readonly DiscordShardedClient _discord;
 
@@ -15,7 +15,7 @@ namespace DDBLSharp.Discord.NET
         public int ShardCount => _discord.Shards.Count;
     }
 
-    public class DiscordSocketClientWrapper : DiscordClientWrapper
+    class DiscordSocketClientWrapper : DiscordClientWrapper
     {
         private readonly DiscordSocketClient _discord;
 

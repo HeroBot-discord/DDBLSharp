@@ -18,6 +18,8 @@ namespace DDBLSharp.Discord.NET
         /// </summary>
         private readonly DiscordClientWrapper _discord;
 
+        public delegate void StatsUpdated();
+        private event StatsUpdated StatsUpdatedEvent;
         /// <summary>
         /// Used to create the service.
         /// </summary>
@@ -47,6 +49,8 @@ namespace DDBLSharp.Discord.NET
             {
                 ServerCount = _discord.GuildCount,
                 ShardCount = _discord.ShardCount
+            }).ContinueWith(x => {
+                StatsUpdatedEvent();
             });
         }
         public DDBLService(DiscordSocketClient client,ClientConfiguration configuration) {

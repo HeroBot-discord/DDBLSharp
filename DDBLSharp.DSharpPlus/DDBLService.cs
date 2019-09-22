@@ -19,6 +19,9 @@ namespace DDBLSharp.DSharpPlus
         /// </summary>
         private readonly DiscordClientWrapper _discord;
 
+        public delegate void StatsUpdated();
+        private event StatsUpdated StatsUpdatedEvent;
+
         /// <summary>
         /// Used to create the service.
         /// </summary>
@@ -36,6 +39,8 @@ namespace DDBLSharp.DSharpPlus
             {
                 ServerCount = _discord.GuildCount,
                 ShardCount = _discord.ShardCount
+            }).ContinueWith(x => {
+                StatsUpdatedEvent();
             });
         }
         public DDBLService(DiscordClient client,ClientConfiguration configuration) {
@@ -45,7 +50,6 @@ namespace DDBLSharp.DSharpPlus
         }
         private async Task Init()
         {
-
             // Now the client is lunched.
             Client = new DDBLBotClient() {
                 ApiKey = _config.ApiKey,

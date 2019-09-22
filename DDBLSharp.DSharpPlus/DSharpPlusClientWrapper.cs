@@ -3,7 +3,7 @@
     using global::DSharpPlus;
     using System.Linq;
 
-    public class DiscordShardedClientWrapper : DiscordClientWrapper
+    class DiscordShardedClientWrapper : DiscordClientWrapper
     {
         private readonly DiscordShardedClient _discord;
 
@@ -16,7 +16,7 @@
         public int ShardCount => _discord.ShardClients.Count;
     }
 
-    public class DiscordSocketClientWrapper : DiscordClientWrapper
+    class DiscordSocketClientWrapper : DiscordClientWrapper
     {
         private readonly DiscordClient _discord;
 
