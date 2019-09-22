@@ -1,0 +1,14 @@
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\bin\Debug\netcoreapp3.0\DDBLsharp.deps.json
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\bin\Debug\netcoreapp3.0\DDBLsharp.dll
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\obj\Debug\netcoreapp3.0\DDBLsharp.csprojAssemblyReference.cache
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\obj\Debug\netcoreapp3.0\DDBLsharp.csproj.CoreCompileInputs.cache
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\obj\Debug\netcoreapp3.0\DDBLsharp.AssemblyInfoInputs.cache
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\obj\Debug\netcoreapp3.0\DDBLsharp.AssemblyInfo.cs
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\bin\Debug\netcoreapp3.0\DDBLsharp.pdb
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\obj\Debug\netcoreapp3.0\DDBLsharp.dll
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\obj\Debug\netcoreapp3.0\DDBLsharp.pdb
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\bin\Debug\netcoreapp3.0\DDBLsharp.exe
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\bin\Debug\netcoreapp3.0\DDBLsharp.runtimeconfig.json
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\bin\Debug\netcoreapp3.0\DDBLsharp.runtimeconfig.dev.json
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Matthieu\source\repos\DDBLsharp\DDBLsharp\obj\Debug\netcoreapp3.0\DDBLsharp.csproj.CopyComplete

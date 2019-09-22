@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.Tests\\DDBLSharp.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.Discord.NET\\DDBLSharp.Discord.NET.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.Discord.NET\\DDBLSharp.Discord.NET.csproj",
+        "projectName": "DDBLSharp.Discord.NET",
+        "projectPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.Discord.NET\\DDBLSharp.Discord.NET.csproj",
+        "packagesPath": "C:\\Users\\Matthieu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.Discord.NET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matthieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\DDBLsharp.csproj": {
+                "projectPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\DDBLsharp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.0.0-rc1.19456.10, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.DSharpPlus\\DDBLSharp.DSharpPlus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.DSharpPlus\\DDBLSharp.DSharpPlus.csproj",
+        "projectName": "DDBLSharp.DSharpPlus",
+        "projectPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.DSharpPlus\\DDBLSharp.DSharpPlus.csproj",
+        "packagesPath": "C:\\Users\\Matthieu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.DSharpPlus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matthieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\DDBLsharp.csproj": {
+                "projectPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\DDBLsharp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "DSharpPlus": {
+              "target": "Package",
+              "version": "[3.2.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.Tests\\DDBLSharp.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.Tests\\DDBLSharp.Tests.csproj",
+        "projectName": "DDBLSharp.Tests",
+        "projectPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.Tests\\DDBLSharp.Tests.csproj",
+        "packagesPath": "C:\\Users\\Matthieu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matthieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.Discord.NET\\DDBLSharp.Discord.NET.csproj": {
+                "projectPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.Discord.NET\\DDBLSharp.Discord.NET.csproj"
+              },
+              "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.DSharpPlus\\DDBLSharp.DSharpPlus.csproj": {
+                "projectPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLSharp.DSharpPlus\\DDBLSharp.DSharpPlus.csproj"
+              },
+              "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\DDBLsharp.csproj": {
+                "projectPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\DDBLsharp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\DDBLsharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\DDBLsharp.csproj",
+        "projectName": "DDBLsharp",
+        "projectPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\DDBLsharp.csproj",
+        "packagesPath": "C:\\Users\\Matthieu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matthieu\\source\\DDBLSharp\\DDBLsharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matthieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3-beta1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
